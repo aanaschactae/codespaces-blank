@@ -1,0 +1,40 @@
+'''
+Projeto Final - Identificando os Fundamentos de Programação
+2025.07.02
+Ana Vitória Schactae Brandão
+'''
+
+01. Entrada:
+Arquivo: meu_projeto.py
+Linha: 59 - resposta = input("Digite uma palavra de 4 letras: ").upper()
+Explicação - Através da função input, é possível receber a entrada do jogador, armazenada na variável resposta.
+
+02. Saída:
+Arquivo: meu_projeto.py
+Linha: 96 - print(f" Game Over! A palavra correta era {palavra}")
+Explicação - Por meio da função print, é possível mostrar ao jogador uma mensagem e a palavra secreta, utilizando a formatação f-string para colocar a variável desejada na string
+
+03. Tipos de Dados e Variáveis:
+Arquivo: meu_projeto.py
+Linha: 79 - resultado_final = resultado.split()
+Explicação - Transforma a variável resultado em lista, para editar cada letra de forma isolada.
+
+04. Estruturas de repetição:
+Arquivo: meu_projeto.py
+Linha: 58  while True:
+Explicação - Cria um looping infinito, a menos que haja um pedido de interrupção no código.
+
+05. Estruturas de Decisão:
+Arquivo: meu_projeto.py
+Linha: 60 - if len(resposta) == 4 and resposta.isalpha():
+Explicação - A condição para o código ser executado dentro da estrutura de decisão é se o comprimento da respsta for igual a 4
+
+06. Operadores:
+Arquivo: meu_projeto.py
+Linha: 50 - if resposta[i] != palavra[i] and resposta[i] in letras: 
+Explicação - O operador and analisa se os dois valores são verdadeiros, se sim a instrução dentro dessa estrutura de decisão será realizada. 
+
+07. Sub-Rotinas:
+Arquivo: meu_projeto.py
+Linha: 42 - def sortPal(palavrasSort):
+Explicação: O bloco de códigos através do chamamento é armazenado dentro de sortPal para evitar repetições 
